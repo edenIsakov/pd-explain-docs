@@ -6,29 +6,50 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use pd_explain, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   (.venv) $ pip install pd_explain
 
-Creating recipes
+
+import pd_explain
+----------------
+you have to import pd_explain after importing pandas to use explanations
+.. code-block:: python
+
+    import pandas as pd
+    import pd_explain
+
+Create dataframe
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+To read dataframe from csv (or any file use pd read functions),
+you can use the ``pd.red_csv()`` function:
 
-.. autofunction:: lumache.get_random_ingredients
+.. autofunction:: pd.red_csv
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
+This pandas read function already returns an explainable dataframe
 
 For example:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+>>> import pandas as pd
+>>> import pd_explain
+>>> pd.read_csv(r'Dataset/spotify_all')
+
+Alternatively you can create your own dataframe
+and convert it using ``pd_explain.to_explainable``
+
+.. autofunction:: pd_explain.to_explainable
+
+The ``df`` parameter should be a dataframe
+
+For example:
+
+>>> import pandas as pd
+>>> import pd_explain
+>>> d = {'col1': [1, 2], 'col2': [3, 4]}
+>>> df = pd.DataFrame(data=d)
+>>> df = pd_explain.to_explainable(df)
+
 
