@@ -1,0 +1,9 @@
+wheel
+pandas
+numpy
+python-dotenv~=0.20.0
+singleton-decorator
+git+https://github.com/TAU-DB/ExplainED.git@create-python-package#egg=explain_ed
+git+https://github.com/KathyRaz/SubTab.git@create_as_package#egg=subtab
+matplotlib~=3.5.1
+setuptools~=60.2.0
