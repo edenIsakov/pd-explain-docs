@@ -10,7 +10,7 @@ To use pd_explain, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install pd_explain
+   pip install pd_explain
 
 
 import pd_explain
@@ -38,7 +38,7 @@ For example:
 Alternatively you can create your own dataframe
 and convert it using ``pd_explain.to_explainable``
 
-.. autofunction:: pd_explain.to_explainable
+.. py:function:: pd_explain.to_explainable(df)
 
 The ``df`` parameter should be a dataframe
 
