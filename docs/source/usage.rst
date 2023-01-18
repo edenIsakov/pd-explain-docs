@@ -38,7 +38,7 @@ For example:
 Alternatively you can create your own dataframe
 and convert it using ``pd_explain.to_explainable``
 
-.. py:function:: pd_explain.to_explainable(df)
+.. autofunction:: lumache.get_random_ingredients
 
 The ``df`` parameter should be a dataframe
 
