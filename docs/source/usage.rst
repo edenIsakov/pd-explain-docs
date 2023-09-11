@@ -10,7 +10,7 @@ To use pd_explain, first install it using pip:
 
 .. code-block:: console
 
-   pip install pd_explain
+   pip install pd-explain
 
 
 import pd_explain
