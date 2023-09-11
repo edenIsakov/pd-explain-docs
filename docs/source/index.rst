@@ -20,4 +20,4 @@ Contents
    usage
    notebooks/Bank_Churners_Pitch
    api
-   pd_explain.explainable_data_frame
+   $READTHEDOCS_OUTPUT/html/explainable_data_frame
