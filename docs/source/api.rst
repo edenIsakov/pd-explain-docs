@@ -4,4 +4,4 @@ API
 .. autosummary::
    :toctree: generated
 
-   pd-explain
+   explainable_data_frame.py
