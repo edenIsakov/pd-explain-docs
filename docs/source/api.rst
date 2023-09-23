@@ -3,6 +3,7 @@ API
 
 .. autosummary::
    :toctree: gen
+   :nosignatures:
 
    source/pd_explain
    source/pd_explain.explainable_data_frame
