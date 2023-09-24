@@ -22,3 +22,4 @@ Contents
    explain-function - Filter
    filter parameters
    api
+   apigroupby
