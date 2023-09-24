@@ -1,7 +1,7 @@
 Welcome to pd-explain Documentation
 ==================================
 
-Unlock the power of data exploration and storytelling with **pd-explain**, your indispensable extension to the Pandas library. With pd-explain, you can effortlessly filter and analyze your data, gaining valuable insights that go beyond basic data manipulation.
+Unlock the power of data exploration and storytelling with **pd-explain**, your indispensable extension to the Pandas library. Built on the foundation of `ExplainED: Explanations for EDA Notebooks <https://github.com/analysis-bots/FEDEx_Generator>`, **pd-explain** allows you effortlessly filter and analyze your data, gaining valuable insights that go beyond basic data manipulation.
 
 **Key Features:**
 
@@ -12,20 +12,6 @@ Unlock the power of data exploration and storytelling with **pd-explain**, your 
 
 Empower your data analysis workflow and let pd-explain turn your data into compelling stories. Dive into our comprehensive documentation to unleash the full potential of your data exploration journey.
 
-
-Welcome to pd_explain documentation!
-===================================
-
-**pd_explain**  is a Python library that create explanation for dataframes manipulations,
-using pandas dataframes and explanations based on
-`ExplainED: Explanations for EDA Notebooks <https://github.com/analysis-bots/FEDEx_Generator>`_
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
 
 Contents
 --------
