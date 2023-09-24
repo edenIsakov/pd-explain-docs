@@ -1,9 +1,9 @@
-Usage
+User Guide
 =====
 
-.. _installation:
+.. _Filter:
 
-Installation
+Filter
 ------------
 
 To use pd_explain, first install it using pip:
