@@ -25,7 +25,7 @@ The "top_k" parameter allows you to control the number of explanations generated
 
 **Output:**
 Three explanation figures will be generated, displaying the top 3 explanations based on the filter operation's impact on the data.
-
+.. image:: topKpopfilter.png
 
 Controlling Correlation with "corr_TH"
 ---------------------------------------
@@ -50,7 +50,7 @@ The "corr_TH" parameter allows you to set a threshold for correlation between fe
 
 **Expected Output:**
 The code will generate explanation figures that not consider highly correlated features, helping you focus on the most relevant aspects of the data.
-
+.. image:: lowerTHfilter.png
 
 
 Presenting Deleted Correlations
@@ -77,6 +77,6 @@ The `present_deleted_correlated` function allows you to generate explanations fo
 
 **Expected Output:**
 The output will include explanation figures showcasing the features that were removed due to their correlation with other displayed features. This function aids in understanding the impact of correlation-based feature selection on your data.
-
+.. image:: topKpopfilter.png
 
 Explore these additional parameters and functions to gain finer control and insights into your data exploration and explanation tasks.
