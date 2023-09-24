@@ -41,7 +41,7 @@ The "corr_TH" parameter allows you to set a threshold for correlation between fe
     # Generate an explanation with "corr_TH" set to the threshold
     filtered_df.explain(
         schema={'popularity': 'Highly_Popular'},
-        title='Filter Operation with Correlation Threshold',
+        title='Filter Operation with lower Correlation Threshold',
         top_k=3,
         figs_in_row=3,
         corr_TH=corr_threshold  # Set corr_TH parameter to the threshold
