@@ -23,7 +23,7 @@ Methods
    
    Compute mean of groups, excluding missing values.
     
-   :param numeric_only: Optional. Include only float, int, boolean columns.
+    :param numeric_only: Optional. Include only float, int, boolean columns.
     :type numeric_only: bool | lib.NoDefault
     :param engine: Optional. Engine for computation.
     :type engine: str
