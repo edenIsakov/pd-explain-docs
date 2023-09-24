@@ -28,6 +28,9 @@ Three explanation figures will be generated, displaying the top 3 explanations b
 
 .. image:: topKpopfilter.png
 
+Please note that the attribute "year" is not presented as it correlate with "decade".
+In that case, pd-explain choses the more significant attribute and deletes the other.
+
 Controlling Correlation with "corr_TH"
 ---------------------------------------
 
