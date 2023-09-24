@@ -19,16 +19,16 @@ Methods
 
     :return: Count for each group.
 
-.. method:: mean(numeric_only: bool | lib.NoDefault = lib.no_default, engine: str = "cython", engine_kwargs: dict[str, bool] | None = None)
+.. method:: mean(numeric_only = lib.no_default, engine= "cython", engine_kwargs = None)
    
    Compute mean of groups, excluding missing values.
     
-    :param numeric_only: Optional. Include only float, int, boolean columns.
-    :type numeric_only: bool | lib.NoDefault
-    :param engine: Optional. Engine for computation.
-    :type engine: str
-    :param engine_kwargs: Optional. Engine-specific keyword arguments.
-    :type engine_kwargs: dict[str, bool] | None
+    :param numeric_only: Include only float, int, boolean columns.
+    :type numeric_only: bool, optional
+    :param engine: Engine for computation.
+    :type engine: str, optional
+    :param engine_kwargs: Engine-specific keyword arguments.
+    :type engine_kwargs: dict[str, bool], optional
     :return: Mean value for each group.
 
 .. method:: median(numeric_only: bool | lib.NoDefault = lib.no_default)
