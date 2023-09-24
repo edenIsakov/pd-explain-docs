@@ -21,7 +21,7 @@ Methods
 
 .. method:: mean(numeric_only=lib.no_default, engine="cython", engine_kwargs=None)
    
-   Compute mean of groups, excluding missing values.
+    Compute mean of groups, excluding missing values.
     
     :param numeric_only: Include only float, int, boolean columns.
     :type numeric_only: bool, optional
@@ -33,7 +33,7 @@ Methods
 
 .. method:: median(numeric_only: bool | lib.NoDefault = lib.no_default)
 
-   Compute median of groups, excluding missing values.
+    Compute median of groups, excluding missing values.
 
     :param numeric_only: Optional. Include only float, int, boolean columns.
     :type numeric_only: bool | lib.NoDefault
@@ -41,7 +41,7 @@ Methods
 
 .. method:: sum(numeric_only: bool | lib.NoDefault = lib.no_default, min_count: int = 0, engine: str | None = None, engine_kwargs: dict[str, bool] | None = None)
 
-   Compute sum of group values.
+    Compute sum of group values.
 
     :param numeric_only: Optional. Include only float, int, boolean columns.
     :type numeric_only: bool | lib.NoDefault
@@ -55,7 +55,7 @@ Methods
 
 .. method:: min(numeric_only: bool = False, min_count: int = -1)
 
-   Compute min of group values.
+    Compute min of group values.
 
     :param numeric_only: Optional. Include only float, int, boolean columns.
     :type numeric_only: bool
@@ -65,7 +65,7 @@ Methods
 
 .. method:: max(numeric_only: bool = False, min_count: int = -1)
 
-   Compute max of group values.
+    Compute max of group values.
 
     :param numeric_only: Optional. Include only float, int, boolean columns.
     :type numeric_only: bool
