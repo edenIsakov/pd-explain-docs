@@ -64,6 +64,8 @@ Output
 ### Output Description
 
 The output illustrates the impact of the "high popularity" filter on the "spotify_all" dataset. After applying the filter, the visualization shows a significant increase in the percentage of songs from the last two decades, indicating a clear influence on the composition of the resulting dataset.
+Songs that have gained popularity in recent years are more likely to meet this criterion, as they tend to accumulate higher streaming numbers and recognition. Consequently, the filter narrows down the dataset to include primarily contemporary tracks, leading to the observed shift in the composition of the dataset towards more recent music.
+
 
 
 Expected Output
