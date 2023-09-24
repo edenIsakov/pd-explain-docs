@@ -18,8 +18,6 @@ Contents
 
 .. toctree::
 
-   usage
-   User Guide
-   notebooks/Bank_Churners_Pitch
+   Getting Started
+   explain-function - Filter
    api
-   $READTHEDOCS_OUTPUT/html/explainable_data_frame
