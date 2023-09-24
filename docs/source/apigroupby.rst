@@ -7,7 +7,7 @@ ExpDataFrameGroupBy Class API
 Overview
 --------
 
-`ExpDataFrameGroupBy` is a specialized class that extends the functionality of the pandas DataFrameGroupBy class. It is designed to provide additional capabilities for explaining grouped data operations applied to DataFrames, making it easier to understand and work with grouped data transformations.
+`ExpDataFrameGroupBy` is a specialized class that extends the functionality of the pd-explain ExpDataFrame class. It is designed to provide additional capabilities for explaining grouped data operations applied to DataFrames, making it easier to understand and work with grouped data transformations.
 
 .. inheritance-diagram:: ExpDataFrameGroupBy
    :parts: 1
@@ -31,7 +31,7 @@ Methods
     :type engine_kwargs: dict[str, bool], optional
     :return: Mean value for each group.
 
-.. method:: median(numeric_only: bool | lib.NoDefault = lib.no_default)
+.. method:: median(numeric_only=lib.no_default)
 
     Compute median of groups, excluding missing values.
 
@@ -39,7 +39,7 @@ Methods
     :type numeric_only: bool | lib.NoDefault
     :return: Median of values within each group.
 
-.. method:: sum(numeric_only: bool | lib.NoDefault = lib.no_default, min_count: int = 0, engine: str | None = None, engine_kwargs: dict[str, bool] | None = None)
+.. method:: sum(numeric_only=lib.no_default, min_count=0, engine=None, engine_kwargs=None)
 
     Compute sum of group values.
 
@@ -53,7 +53,7 @@ Methods
     :type engine_kwargs: dict[str, bool] | None
     :return: Computed sum of values within each group.
 
-.. method:: min(numeric_only: bool = False, min_count: int = -1)
+.. method:: min(numeric_only=False, min_count=-1)
 
     Compute min of group values.
 
@@ -63,7 +63,7 @@ Methods
     :type min_count: int
     :return: Computed min of values within each group.
 
-.. method:: max(numeric_only: bool = False, min_count: int = -1)
+.. method:: max(numeric_only=False, min_count=-1)
 
     Compute max of group values.
 
