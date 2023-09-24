@@ -1,6 +1,6 @@
-.. _explain-function:
+.. _explain-function - Filter:
 
-Explain Function
+Explain Function - Filter
 ===================
 
 The `explain` function in the `ExpDataFrame` class generates explanations for a filtered or grouped DataFrame. It provides insights into how a series of operations led to the resulting DataFrame, making it easier to understand and interpret data transformations.
@@ -32,7 +32,7 @@ Parameters
 - ``title`` (str, optional): A title for the explanation. Default is ``None``.
 - ``corr_TH`` (float, optional): The threshold for correlation between features. Default is ``0.7``.
 
-Usage Example with "spotify_all" DataFrame
+Usage Example with "spotify_all" DataFrame and filter operation
 ----------------
 
 .. code-block:: python
