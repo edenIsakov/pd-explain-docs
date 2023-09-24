@@ -56,8 +56,7 @@ Filter Usage Example with "spotify_all" DataFrame
     )
 
 
-Output
-----------------
+**Output:**
 
 .. image:: popfilter.png
 
