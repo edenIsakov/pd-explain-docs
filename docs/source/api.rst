@@ -1,7 +1,7 @@
 .. _exp_dataframe:
 
 =============================================
-ExpDataFrame Class
+ExpDataFrame Class API
 =============================================
 
 Overview
