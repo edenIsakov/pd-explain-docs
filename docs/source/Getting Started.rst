@@ -21,7 +21,7 @@ Import the library in your Python script or Jupyter Notebook to get started:
 
 .. code-block:: python
 
-    from pd_explain import ExpDataFrame
+    import pd_explain
 
 Reading a Table
 ---------------
