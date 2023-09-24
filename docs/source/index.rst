@@ -20,4 +20,5 @@ Contents
 
    Getting Started
    explain-function - Filter
+   filter parameters
    api
