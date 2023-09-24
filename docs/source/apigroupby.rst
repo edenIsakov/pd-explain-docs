@@ -19,7 +19,7 @@ Methods
 
     :return: Count for each group.
 
-.. method:: mean(numeric_only = lib.no_default, engine= "cython", engine_kwargs = None)
+.. method:: mean(numeric_only=lib.no_default, engine="cython", engine_kwargs=None)
    
    Compute mean of groups, excluding missing values.
     
