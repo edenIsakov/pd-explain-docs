@@ -19,7 +19,5 @@ Contents
 .. toctree::
 
    Getting Started
-   User Guide
-   notebooks/Bank_Churners_Pitch
+   explain-function - Filter
    api
-   $READTHEDOCS_OUTPUT/html/explainable_data_frame
