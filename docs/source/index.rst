@@ -18,7 +18,7 @@ Contents
 
 .. toctree::
 
-   usage
+   Getting Started
    User Guide
    notebooks/Bank_Churners_Pitch
    api
