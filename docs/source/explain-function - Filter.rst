@@ -32,7 +32,7 @@ Parameters
 - ``title`` (str, optional): A title for the explanation. Default is ``None``.
 - ``corr_TH`` (float, optional): The threshold for correlation between features. Default is ``0.7``.
 
-Usage Example with "spotify_all" DataFrame and filter operation
+Filter Usage Example with "spotify_all" DataFrame
 ----------------
 
 .. code-block:: python
@@ -56,16 +56,14 @@ Usage Example with "spotify_all" DataFrame and filter operation
     )
 
 
-Output Snapshot
+Output
 ----------------
 
-.. image:: path/to/your/snapshot.png
-    :alt: Output Snapshot
-    :align: center
+.. image:: popfilter.png
 
-### Output Snapshot Description
+### Output Description
 
-The output snapshot illustrates the impact of the "high popularity" filter on the "spotify_all" dataset. After applying the filter, the visualization shows a significant increase in the percentage of songs from the last two decades, indicating a clear influence on the composition of the resulting dataset.
+The output illustrates the impact of the "high popularity" filter on the "spotify_all" dataset. After applying the filter, the visualization shows a significant increase in the percentage of songs from the last two decades, indicating a clear influence on the composition of the resulting dataset.
 
 
 Expected Output
