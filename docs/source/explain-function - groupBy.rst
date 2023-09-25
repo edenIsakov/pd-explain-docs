@@ -29,7 +29,7 @@ Group By Usage Example with "spotify_all" DataFrame
 
 **Output:**
 
-.. image:: groupby.png
+.. image:: groupbyexplain.png
 
 Output Description
 ------------------
