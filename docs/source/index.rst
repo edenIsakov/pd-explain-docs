@@ -21,5 +21,6 @@ Contents
    Getting Started
    explain-function - Filter
    filter parameters
+   explain-function - groupBy
    api
    apigroupby
